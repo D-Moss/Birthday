@@ -1,0 +1,32 @@
+body {
+	overflow: hidden;
+	background: #d3d4d6 url("https://i.postimg.cc/wvCTpSsR/pink.jpg") no-repeat center fixed;
+}
+
+.btn {
+	margin-top: 45%;
+	border: none;
+	background-color: inherit;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	color: white;
+}
+
+.btn:hover {
+	color: #fa63aa;
+}
+
+@media screen and (max-width: 992px) {
+	body {
+		background-image: url('https://i.postimg.cc/505whrXg/Love.png');
+		overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		background-image: url('https://i.postimg.cc/cHR6rvtS/simple.jpg');
+	}
+}

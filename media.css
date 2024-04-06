@@ -6,19 +6,18 @@ body {
 	font-family: Verdana, sans-serif;
 	overflow: hidden;
 	margin: 0;
+	background-color: #d3d4d6;
 }
 
-h2, h3 {
+h2 {
 	font-family: Verdana, sans-serif;
 	text-align: center;
+	color: #fff;
 }
 
-.btn {
-	background-color: inherit;
-	border: none;
-	display: inline-block;
-	float: right;
-	margin-bottom: 15%;
+.flex-container a {
+	text-decoration: none;
+	color: #fa63aa;
 }
 
 .mySlides {

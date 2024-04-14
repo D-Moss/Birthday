@@ -3,30 +3,17 @@ body {
 	background: #d3d4d6 url("https://i.postimg.cc/wvCTpSsR/pink.jpg") no-repeat center fixed;
 }
 
-.btn {
-	margin-top: 45%;
-	border: none;
-	background-color: inherit;
-	padding: 14px 28px;
-	font-size: 16px;
-	cursor: pointer;
-	display: inline-block;
-	color: #fff;
-}
-
-.btn:hover {
-	color: #fa63aa;
-}
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 892px) {
 	body {
-		background-image: url('https://i.postimg.cc/505whrXg/Love.png');
+		background: url('https://i.postimg.cc/505whrXg/Love.png') no-repeat center fixed;
+		background-size: 100%;
 		overflow: hidden;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	body {
-		background-image: url('https://i.postimg.cc/cHR6rvtS/simple.jpg');
+		background: #fececa url('https://i.postimg.cc/cHR6rvtS/simple.jpg') no-repeat center fixed;
+		background-size: 100%;
 	}
 }

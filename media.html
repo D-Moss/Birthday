@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Birthday Card</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="media.css">
 	<link rel="stylesheet" type="text/css" href="lightbox-card.css">
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Sacramento&display=swap" rel="stylesheet">
@@ -12,39 +11,39 @@
 	<script type="text/javascript" src="js/lightbox.min.js"></script>
 	<script type="text/javascript" src="frontend.js"></script>
 	<script type="text/javascript" src="js/declarativeToggle.js"></script>
+	<title>Birthday Card</title>
 </head>
 <body>
-
 	<div class="slideshow-container">
 		
 		<div class="mySlides fade">
-			<div class="numbertext">1 / 5</div>
+			<div class="numbertext">1/5</div>
 			<img src="NewImages/greenlove.png" style="width:100%">
 			<div class="text">Caption Text</div>
 		</div>
 
 		<div class="mySlides fade">
-			<div class="numbertext">2 / 5</div>
+			<div class="numbertext">2/5</div>
 			<img src="NewImages/flower.png" style="width:100%">
-			<div class="text">Caption Two</div>
+			<div class="text">Caption Text</div>
 		</div>
 
 		<div class="mySlides fade">
-			<div class="numbertext">3 / 5</div>
+			<div class="numbertext">3/5</div>
 			<img src="NewImages/nature.png" style="width:100%">
-			<div class="text">Caption Three</div>
+			<div class="text">Caption Text</div>
 		</div>
 
 		<div class="mySlides fade">
-			<div class="numbertext">4 / 5</div>
+			<div class="numbertext">4/5</div>
 			<img src="NewImages/puppy.png" style="width:100%">
-			<div class="text">Caption Three</div>
+			<div class="text">Caption Text</div>
 		</div>
 
 		<div class="mySlides fade">
-			<div class="numbertext">5 / 5</div>
+			<div class="numbertext">5/5</div>
 			<img src="NewImages/purple-tree.png" style="width:100%">
-			<div class="text">Caption Three</div>
+			<div class="text">Caption Text</div>
 		</div>
 
 		<a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -53,7 +52,7 @@
 
 	<br>
 
-	<div style="text-align:center">
+	<div style="text-align: center;">
 		<span class="dot" onclick="currentSlide(1)"></span>
 		<span class="dot" onclick="currentSlide(2)"></span>
 		<span class="dot" onclick="currentSlide(3)"></span>
@@ -64,7 +63,7 @@
 	<script>
 		let slideIndex = 0;
 		showSlides();
-		
+
 		function showSlides() {
 			let i;
 			let slides = document.getElementsByClassName("mySlides");
@@ -79,25 +78,16 @@
 			for (i = 0; i < dots.length; i++) {
 				dots[i].className = dots[i].className.replace(" active", "");
 			}
-			slides[slideIndex-1].style.display = "block";  
+			slides[slideIndex-1].style.display = "block";
 			dots[slideIndex-1].className += " active";
 			setTimeout(showSlides, 2000); // Change image every 2 seconds
 		}
 	</script>
 
-	<h2> Happy Mother's Day <br>
-	Love you forever and always </h2>
-	
-	<footer class="flex-container">
-		<div>
-			<a href="index.html">
-				<p>Click It</p>
-			</a>
-		</div>
-		<div>
-			<h6>DBMoss</h6>
-		</div>
-	</footer>
-	
+	<h2>
+		Happy Mother's Day
+		<br>
+		Love you forever and always
+	</h2>
 </body>
 </html>

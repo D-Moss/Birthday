@@ -3,40 +3,24 @@ body {
 	background: #d3d4d6 url("https://i.postimg.cc/wvCTpSsR/pink.jpg") no-repeat center fixed;
 }
 
-div.container {
+.container .btn {
 	position: fixed;
 	bottom: 0;
-}
-
-.container {
-	position: relative;
-	width: 100%;
-	max-width: 100px;
-}
-
-.container img {
-	width: 100%;
-	height: auto;
-}
-
-.container .btn {
-	position: absolute;
-	top: 80%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
 	background-color: inherit;
-	color: white;
-	font-size: 12px;
+	font-size: 16px;
 	padding: 8px 8px;
 	border: none;
 	cursor: pointer;
 	border-radius: 5px;
-	text-align: center;
 }
 
 .container .btn:hover {
 	background-color: black;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #fa57aa;
 }
 
 @media screen and (max-width: 892px) {

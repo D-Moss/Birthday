@@ -17,39 +17,56 @@
 	<div class="slideshow-container">
 		
 		<div class="mySlides fade">
-			<div class="numbertext">1/5</div>
-			<img src="NewImages/greenlove.png" style="width:100%">
-			<div class="text">Caption Text</div>
+			<div class="numbertext">1/30</div>
+			<img src="https://i.postimg.cc/fLTs9TD4/20200720-185624.jpg">
+			<div class="text"></div>
 		</div>
 
 		<div class="mySlides fade">
-			<div class="numbertext">2/5</div>
-			<img src="NewImages/flower.png" style="width:100%">
-			<div class="text">Caption Text</div>
+			<div class="numbertext">2/30</div>
+			<img src="https://i.postimg.cc/Bv34JBzn/20160705-143505-HDR.jpg">
 		</div>
 
 		<div class="mySlides fade">
-			<div class="numbertext">3/5</div>
-			<img src="NewImages/nature.png" style="width:100%">
-			<div class="text">Caption Text</div>
+			<div class="numbertext">3/30</div>
+			<img src="https://i.postimg.cc/bJF7Sxmb/image0000001-2-5.jpg">
 		</div>
 
 		<div class="mySlides fade">
-			<div class="numbertext">4/5</div>
-			<img src="NewImages/puppy.png" style="width:100%">
-			<div class="text">Caption Text</div>
+			<div class="numbertext">4/30</div>
+			<img src="https://i.postimg.cc/jSLZCpG8/multicolor-rose.jpg">
 		</div>
 
 		<div class="mySlides fade">
-			<div class="numbertext">5/5</div>
-			<img src="NewImages/purple-tree.png" style="width:100%">
-			<div class="text">Caption Text</div>
+			<div class="numbertext">5/30</div>
+			<img src="https://i.postimg.cc/rFS1T056/Photo-Grid-Plus.jpg">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">6/30</div>
+			<img src="https://i.postimg.cc/tJXGSVj3/20181231-182255-1.jpg">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">7/30</div>
+			<img src="https://i.postimg.cc/x1Kqfkjm/S7300773.jpg">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">8/30</div>
+			<img src="https://i.postimg.cc/Gpszd1V5/he-strong.jpg">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3/30</div>
+			<img src="https://i.postimg.cc/0N3JgD2q/S7300890.jpg">
 		</div>
 
 	<!--
 		<a class="prev" onclick="plusSlides(-1)">❮</a>
 		<a class="next" onclick="plusSlides(1)">❯</a>
 	-->
+	
 	</div>
 
 	<br>
@@ -60,7 +77,13 @@
 		<span class="dot" onclick="currentSlide(3)"></span>
 		<span class="dot" onclick="currentSlide(4)"></span>
 		<span class="dot" onclick="currentSlide(5)"></span>
+		<span class="dot" onclick="currentSlide(6)"></span>
+		<span class="dot" onclick="currentSlide(7)"></span>
+		<span class="dot" onclick="currentSlide(8)"></span>
+		<span class="dot" onclick="currentSlide(9)"></span>
+		<span class="dot" onclick="currentSlide(10)"></span>
 	</div>
+
 
 	<script>
 		let slideIndex = 0;
@@ -82,15 +105,22 @@
 			}
 			slides[slideIndex-1].style.display = "block";
 			dots[slideIndex-1].className += " active";
-			setTimeout(showSlides, 2000); // Change image every 2 seconds
+			setTimeout(showSlides, 8000); // Change image every 8 seconds
 		}
 	</script>
 
-	<h2>
+	<h3>
 		Happy Mother's Day
 		<br>
 		Love you forever and always
-	</h2>
+	</h3>
+
+	<div class="music">
+		<audio controls autoplay>
+			<source src="audio/Song For Momma.ogg">
+			<source src="audio/Song For Momma.mp3">
+		</audio>
+	</div>
 
 	<div class="container">
 		<button class="btn">

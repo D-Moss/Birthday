@@ -7,7 +7,7 @@ body {
 	position: fixed;
 	bottom: 0;
 	background-color: inherit;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 8px 8px;
 	border: none;
 	cursor: pointer;
@@ -32,6 +32,13 @@ body {
 	div.container {
 		position: fixed;
 		bottom: 0;
+		left: 6%;
+
+	}
+	.container a {
+		color: hotpink;
+		font-size: 18px;
+		font-weight: bold;
 	}
 }
 

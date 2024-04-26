@@ -14,101 +14,74 @@
 	<title>Birthday Card</title>
 </head>
 <body>
-	<div class="slideshow-container">
-		
-		<div class="mySlides fade">
-			<div class="numbertext">1/30</div>
-			<img src="https://i.postimg.cc/fLTs9TD4/20200720-185624.jpg">
-			<div class="text"></div>
-		</div>
 
-		<div class="mySlides fade">
-			<div class="numbertext">2/30</div>
-			<img src="https://i.postimg.cc/Bv34JBzn/20160705-143505-HDR.jpg">
-		</div>
+	<!-- 3D Slideshow Section -->
+	<section id="slideshow">
+		<div class="entire-content">
+			<div class="content-carrousel">
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/XY7cHsbg/20200720-185624.jpg" alt="taylor, mom, jr, dad" />
+				</figure>
+				
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/k5PMMpgQ/6065458907148081697-1713667049990.jpg" alt="taylor, niesha, jr, bro" />
+				</figure>
+				
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/8zmk5bJx/multicolor-rose.jpg" alt="multicolor rose" />
+				</figure>
+				
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/P5yhhr0j/image0000001-2-5.jpg" alt="mom, taylor" />
+				</figure>
+				
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/bJJw42vW/IMG-3006.jpg" alt="mom, jr" />
+				</figure>
 
-		<div class="mySlides fade">
-			<div class="numbertext">3/30</div>
-			<img src="https://i.postimg.cc/bJF7Sxmb/image0000001-2-5.jpg">
-		</div>
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/Jzrzktx4/S7300909.jpg" alt="mom, bro, dad, me" />
+				</figure>
+				
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/9Qgxh6XM/20210808-162222.jpg" alt="jr, mom, taylor" />
+				</figure>
+				
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/TPWBHdjG/he-strong.jpg" alt="dad, unc, ty, bro" />
+				</figure>
+				
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/Hnf0fZ5k/20160705-143505-HDR.jpg" alt="mom, me, neisha" />
+				</figure>
 
-		<div class="mySlides fade">
-			<div class="numbertext">4/30</div>
-			<img src="https://i.postimg.cc/jSLZCpG8/multicolor-rose.jpg">
-		</div>
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/g2yyTK0G/purple-rose.jpg" alt="purple rose" />
+				</figure>
+				
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/s2wYVDS8/20210620-153950.jpg" alt="bro, jr, dad" />
+				</figure>
 
-		<div class="mySlides fade">
-			<div class="numbertext">5/30</div>
-			<img src="https://i.postimg.cc/rFS1T056/Photo-Grid-Plus.jpg">
-		</div>
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/gkZHvpFX/IMG-20150918-184829.jpg" alt="mom shower" />
+				</figure>
 
-		<div class="mySlides fade">
-			<div class="numbertext">6/30</div>
-			<img src="https://i.postimg.cc/tJXGSVj3/20181231-182255-1.jpg">
-		</div>
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/WpK7F3Kc/IMG-20151126-182211.jpg" alt="taylor, mom" />
+				</figure>
 
-		<div class="mySlides fade">
-			<div class="numbertext">7/30</div>
-			<img src="https://i.postimg.cc/x1Kqfkjm/S7300773.jpg">
-		</div>
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/4xRbP0s8/Resized-20170322-1836321.jpg" alt="mom, dad" />
+				</figure>
 
-		<div class="mySlides fade">
-			<div class="numbertext">8/30</div>
-			<img src="https://i.postimg.cc/Gpszd1V5/he-strong.jpg">
+				<figure class="shadow">
+					<img src="https://i.postimg.cc/8C1dQrFM/Photo-Grid-Plus.jpg" alt="family" />
+				</figure>
+			</div>
 		</div>
-
-		<div class="mySlides fade">
-			<div class="numbertext">3/30</div>
-			<img src="https://i.postimg.cc/0N3JgD2q/S7300890.jpg">
-		</div>
-
-	<!--
-		<a class="prev" onclick="plusSlides(-1)">❮</a>
-		<a class="next" onclick="plusSlides(1)">❯</a>
-	-->
+	</section>
 	
-	</div>
-
-	<br>
-
-	<div style="text-align: center;">
-		<span class="dot" onclick="currentSlide(1)"></span>
-		<span class="dot" onclick="currentSlide(2)"></span>
-		<span class="dot" onclick="currentSlide(3)"></span>
-		<span class="dot" onclick="currentSlide(4)"></span>
-		<span class="dot" onclick="currentSlide(5)"></span>
-		<span class="dot" onclick="currentSlide(6)"></span>
-		<span class="dot" onclick="currentSlide(7)"></span>
-		<span class="dot" onclick="currentSlide(8)"></span>
-		<span class="dot" onclick="currentSlide(9)"></span>
-		<span class="dot" onclick="currentSlide(10)"></span>
-	</div>
-
-
-	<script>
-		let slideIndex = 0;
-		showSlides();
-
-		function showSlides() {
-			let i;
-			let slides = document.getElementsByClassName("mySlides");
-			let dots = document.getElementsByClassName("dot");
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			slideIndex++;
-			if (slideIndex > slides.length) {
-				slideIndex = 1
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex-1].style.display = "block";
-			dots[slideIndex-1].className += " active";
-			setTimeout(showSlides, 8000); // Change image every 8 seconds
-		}
-	</script>
-
 	<h3>
 		Happy Mother's Day
 		<br>

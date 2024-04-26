@@ -23,6 +23,13 @@ body {
 	color: #fa57aa;
 }
 
+@media screen and (max-width: 990px) {
+	body {
+		background: whitesmoke url('https://i.postimg.cc/SxBpqWqJ/pinkbirthday.jpg') no-repeat center fixed;
+		background-size: 100%;
+	}
+}
+
 @media screen and (max-width: 892px) {
 	body {
 		background: url('https://i.postimg.cc/Y0F6kQMC/LoveDay.jpg') no-repeat center fixed;
@@ -42,7 +49,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 690px) {
 	body {
 		background: #fececa url('https://i.postimg.cc/cHR6rvtS/simple.jpg') no-repeat center fixed;
 		background-size: 100%;
